@@ -91,3 +91,69 @@
     width: 760px;
 
   }
+  .boyareshnick {
+    /* background: rgb(173, 95, 95); */
+    background-image: url("https://www.gifki.org/data/media/185/pchela-animatsionnaya-kartinka-0133.gif");
+  background-size: cover;
+  }
+  .drag{
+
+    position:relative;
+    
+    cursor:hand;
+    
+    z-index: 100;
+    
+    }
+   
+    
+    .form-row:nth-child(n+2) {
+      margin-top: 35px;
+    }
+    
+    .form-group {
+      display: block;
+    }
+    
+    .form-hint {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    
+    .field {
+      box-sizing: border-box;
+      width: 640px;
+      border: 1px solid #222222;
+      padding: 15px 20px;
+      
+      font-family: inherit;
+    }
+    
+    .textarea {
+      min-width: 640px;
+      max-width: 640px;
+      min-height: 150px;
+      max-height: 200px;
+    }
+    
+    .button {
+      border: none;
+      padding: 15px 55px;
+      color: #ffffff;
+      
+      background-color: #e74c3c;
+      font-family: inherit;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .field:focus, .button:focus {
+      outline: 2px solid #c53b2d;
+      outline-offset: 5px;
+    }
+    
+    .button:hover {
+      background-color: #c53b2d;
+    }

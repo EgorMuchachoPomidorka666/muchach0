@@ -167,3 +167,4 @@
     window.addEventListener('load', startup, false);
 
 })();
+setTimeout("alert('Почему ещё не приобрели наш товар?! 👿')",10000);
